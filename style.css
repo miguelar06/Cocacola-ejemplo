@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box; 
+}
+
+body
+{
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+p{
+    color: black;
+}
+
+a
+{
+    display: inline-block;
+}
+
+header
+{
+    background-color: black;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+}
+
+.boton
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 20px;
+}
+
+.boton.boton-rojo
+{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton.boton-blanco
+{
+    color: red;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .container .logo
+{
+    width: 100px;
+}
+
+header .container nav a
+{
+    color: red;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container
+{
+    width: 1140px;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    padding-right: 15px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.columna-33
+{
+    width: 33.33%;
+}
+
+.cuadrado-perfecto
+{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    
+}
+
+.cuadrado-perfecto img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#inicio
+{
+    position: relative;
+}
+
+#inicio img
+{
+    width: 100%;
+    display: block;
+}
+
+#inicio  .bloque-inicio
+{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    text-align: center;
+    margin-left: -200;
+}
+
+#inicio  .bloque-inicio h1
+{
+    color: white;
+    font-size: 35px;
+}
+
+#inicio  .bloque-inicio p
+{
+    color: white;
+    font-size: 13px;
+}
+
+#nosotros   
+{
+    background-image: url(img/latas.jpg);
+    background-size: cover;;
+
+}
+
+#nosotros p
+{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    /*margin: 0;*/
+}
+
+#servicios .bloque-servicio
+{
+    border: 1px solid gray;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+    width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio.cuadrado-perfecto
+{
+    padding-bottom: 56.25%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+    padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+    margin-top: 0;
+    font-size: 25px;
+}
+
+#servicios .container
+{
+    width: 100%;
+}
